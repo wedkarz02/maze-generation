@@ -11,6 +11,6 @@ class Node {
 
     draw() {
         ctx.fillStyle = "white"
-        ctx.fillRect(this.position.x, this.position.y, size, size)
+        ctx.fillRect(this.position.x, this.position.y, this.size, this.size)
     }
 }
